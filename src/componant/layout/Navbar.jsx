@@ -2,6 +2,6 @@
 
 export default function Navbar() {
   return (
-    <div className="bg-red-200 w-full">Navbar</div>
+    <div className="bg-red-400 w-full">Navbar</div>
   )
 }
