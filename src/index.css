@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-field {
+  @apply border border-gray-300 px-3 py-2 rounded-lg focus:outline-none focus:border-blue-500;
+}

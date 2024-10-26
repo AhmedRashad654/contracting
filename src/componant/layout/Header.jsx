@@ -1,10 +1,10 @@
 import PropTypes from "prop-types";
-import { FaChevronLeft } from "react-icons/fa6";
+import { FaChevronRight } from "react-icons/fa6";
 function Header({ first, second }) {
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex items-center gap-2 py-4 px-12">
       <h1>{first}</h1>
-      <FaChevronLeft />
+      <FaChevronRight />
       <h1>{second}</h1>
     </div>
   );
