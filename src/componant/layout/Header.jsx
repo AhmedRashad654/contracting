@@ -2,10 +2,10 @@ import PropTypes from "prop-types";
 import { FaChevronRight } from "react-icons/fa6";
 function Header({ first, second }) {
   return (
-    <div className="flex items-center gap-2 py-4 px-12">
+    <div className="flex items-center gap-1 text-[0.8rem]">
       <h1>{first}</h1>
       <FaChevronRight />
-      <h1>{second}</h1>
+      <h1 className="text-blue-400">{second}</h1>
     </div>
   );
 }
