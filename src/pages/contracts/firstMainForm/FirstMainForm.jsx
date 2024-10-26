@@ -4,8 +4,8 @@ function ContractForm() {
   const navigate = useNavigate();
 
   return (
-    <div className="mx-auto p-4 md:p-8">
-      <form className="flex flex-col gap-6 bg-white p-4 md:p-8">
+    <div className="">
+      <form className="flex flex-col gap-6 bg-white">
         <div className='grid grid-cols-1 md:grid-cols-2 gap-6'>
 
           <div className="flex flex-col md:flex-row items-left md:items-center gap-4">

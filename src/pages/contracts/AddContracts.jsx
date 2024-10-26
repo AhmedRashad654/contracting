@@ -4,9 +4,9 @@ import Header from "../../componant/layout/Header";
 
 export default function AddContracts() {
   return (
-    <div>
+    <div className="p-5 flex flex-col gap-5">
       <Header first={'Contract'} second={'addContract'}/>
-      <div className="md:max-w-7xl mx-auto p-4 md:p-8">
+      <div>
        <AddContractSteps />
       </div>
       <Outlet />
