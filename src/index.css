@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.input-field {
+  @apply border border-gray-300 px-3 py-2 rounded-lg focus:outline-none focus:border-blue-500;
+}
 .activeSidebar {
   color: #022136d5;
   background-color: #f5fafe;
@@ -16,7 +20,7 @@
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  background: #06385C;
+  background: #06385c;
 }
 table {
   width: 100%;
@@ -32,5 +36,3 @@ th {
   border-bottom: 1px solid #d1d0d0;
   text-align: center;
 }
-
-
